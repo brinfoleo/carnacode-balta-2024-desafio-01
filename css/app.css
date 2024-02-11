@@ -6,7 +6,54 @@
     flex-direction: row;
 }
 
+div {
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+
 .input-text {
     background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+    border: 1px solid #BDBDBD;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray
+}
+
+.button-base {
+    background-color: aqua;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+
+}
+
+.button-white {
+    background-color: white;
+    font-size: 20px;
+    border: solid 4px;
+    border-color: aqua;
 }
